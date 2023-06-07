@@ -6,6 +6,7 @@ openai_api_key = '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'
 class OpenaiChatModule:
     def __init__(self, openai_api_key):
         self.openai_api_key = openai_api_key
+        openai.api_base = "https://proxy.994938.xyz/v1"
         self.origin_model_conversation = [
                                 {"role": "system", "content": "你是用户user的好朋友，能够和user进行愉快的交谈，你的名字叫Murphy."}
                             ]
