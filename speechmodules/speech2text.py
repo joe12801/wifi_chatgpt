@@ -84,7 +84,7 @@ class OpenaiASR:
 
     def _get_speech_text(self, audio_file):
         print('调用用语音识别')
-        url = 'https://api.openai.com/v1/audio/transcriptions'
+        url = 'https://proxy.994938.xyz/v1/audio/transcriptions'
         headers = {
             'Authorization': 'Bearer ' + self.API_KEY
         }
