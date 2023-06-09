@@ -6,8 +6,8 @@ import asyncio
 import struct
 import os
 os.environ["SERPER_API_KEY"] = "" # 你的serper key
-openai_api_key = "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"  # 你的openai key
-PICOVOICE_API_KEY = "UOUMvGnvoF6gLKxerJ94W2ExFNE9Ml/PJDQ5NQeyDAw5iSPDPLDJqQ=="  # 你的picovoice key
+openai_api_key = "sk-tTNORxKVq4Rubos27r7rT3BlbkFJ5kfnJA"  # 你的openai key
+PICOVOICE_API_KEY = "R45434"  # 你的picovoice key
 keyword_path = './hi-lucy_en_raspberry-pi_v2_2_0.ppn'  # 你的唤醒词检测离线文件地址
 model_path = '' # 中文模型地址
 Baidu_APP_ID = ''  # 你的百度APP_ID
